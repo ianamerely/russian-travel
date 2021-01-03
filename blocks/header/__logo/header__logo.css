@@ -1,6 +1,13 @@
 .header__logo{
-  width: 176px;
-  height: 52px;
+  max-width: 176px;
+  max-height: 52px;
   justify-self: start;
   /*border: 5px solid red;*/
 }
+
+@media screen and (max-width: 680px) {
+  .header__logo{
+    max-width: 142px;
+    max-height: 42px;
+  }
+} 

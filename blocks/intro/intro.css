@@ -1,0 +1,23 @@
+
+.intro{
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  box-sizing: border-box;
+  border: 5px solid red;
+  justify-content: start;
+}
+
+@media screen and (min-width: 1080px) {
+  .intro{
+    max-width: 984px;
+  }
+} 
+
+@media screen and (min-width: 928px) {
+  .intro{
+    max-width: 928px;
+  }
+} 

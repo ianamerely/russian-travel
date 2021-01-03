@@ -3,10 +3,23 @@
   font-size: 10px;
   line-height: 1.17;
   font-weight: 400;
-  letter-spacing: 0.15em;
+  letter-spacing: 1.5px;
   text-transform: uppercase;
   margin: 0;
   padding: 0;
   color: white;
   /*border: 5px solid red;*/
 }
+
+
+@media screen and (max-width: 780px) {
+  .lead__caption{
+    padding-left: 24px;
+  }
+} 
+
+@media screen and (max-width: 480px) {
+  .lead__caption{
+    padding-left: 16px;
+  }
+} 

@@ -8,5 +8,12 @@
   margin: 0 auto;
   padding-top: 28px;
   /*border: 5px solid red;*/
-
 }
+
+@media screen and (max-width: 780px) {
+  .header{
+    padding-top: 16px;
+    width: 92%;
+  }
+} 
+

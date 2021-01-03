@@ -1,0 +1,5 @@
+.header__lang-link_selected{
+  margin: 18px;
+  text-decoration: underline;
+  /*border: 5px solid red;*/
+}

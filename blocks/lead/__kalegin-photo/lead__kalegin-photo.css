@@ -1,0 +1,8 @@
+.lead__kalegin-photo{
+  margin: 0 auto;
+  box-sizing: border-box;
+  min-width: 77%;
+  max-width: 90%;
+  justify-items: start;
+  /*border: 5px solid red;*/
+}

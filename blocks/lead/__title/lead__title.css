@@ -1,0 +1,14 @@
+.lead__title{
+  display: flex;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 720px;
+  font-size: 96px;
+  line-height: 1.04;
+  font-weight: 900;
+  color: white;
+  text-align: center;
+  padding-top: 56px;
+  margin-bottom: 32px;
+  /*border: 5px solid red;*/
+}

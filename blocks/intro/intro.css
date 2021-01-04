@@ -8,16 +8,26 @@
   box-sizing: border-box;
   border: 5px solid red;
   justify-content: start;
+  padding-top: 92px;
+  max-width: 984px;
 }
 
-@media screen and (min-width: 1080px) {
+@media screen and (max-width: 1080px) {
   .intro{
-    max-width: 984px;
+    max-width: 928px;
   }
 } 
 
-@media screen and (min-width: 928px) {
+@media screen and (max-width: 980px) {
   .intro{
-    max-width: 928px;
+    max-width: 720px;
+    padding-top: 88px;
+  }
+} 
+
+@media screen and (max-width: 480px) {
+  .intro{
+    max-width: 288px;
+    padding-top: 64px;
   }
 } 

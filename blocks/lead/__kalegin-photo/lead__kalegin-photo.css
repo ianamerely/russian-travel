@@ -2,17 +2,13 @@
   margin: 0 auto;
   box-sizing: border-box;
   justify-items: start; 
+  max-width: 984px;
 }
 
-@media screen and (min-width: 1080px) {
-  .lead__kalegin-photo{
-    max-width: 984px;
-  }
-} 
-
-@media screen and (min-width: 928px) {
+@media screen and (max-width: 1080px) {
   .lead__kalegin-photo{
     max-width: 928px;
   }
 } 
+
 

@@ -1,0 +1,6 @@
+.place__image{
+  max-width: 460px;
+  max-height: 460px;
+  /*border: 5px solid red;*/
+  margin-right: 40px;
+}

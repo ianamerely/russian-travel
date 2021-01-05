@@ -6,3 +6,11 @@
   flex-direction: column;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 730px) {
+  .place__website{
+    margin: 0 auto;
+    width: 288px;
+    margin-bottom: 32px;
+  }
+} 

@@ -4,3 +4,41 @@
   /*border: 5px solid red;*/
   margin-right: 40px;
 }
+
+@media screen and (max-width: 1100px) {
+  .place__image{
+    margin-right: 32px;
+    max-width: 440px;
+    max-height: 440px;
+    
+  }
+} 
+
+@media screen and (max-width: 980px) {
+  .place__image{
+    margin-right: 28px;
+    max-width: 340px;
+    max-height: 340px;
+    
+  }
+} 
+
+@media screen and (max-width: 730px) {
+  .place__image{
+    margin: 0;
+    margin-bottom: 32px;
+    max-width: 288px;
+    max-height: 288px;
+    
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .place__image{
+    margin: 0;
+    margin-bottom: 32px;
+    max-width: 320px;
+    max-height: 320px;
+    
+  }
+} 

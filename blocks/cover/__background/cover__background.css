@@ -3,12 +3,26 @@
   z-index: 1;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   height: 740px;
   width: 100%;
   position: absolute;
-  left: 0;
+  right: 0;
   top: 92px;
-  border: red solid 3px;
 }
+
+@media screen and (max-width: 1184px) {
+  .cover__background{
+    height: 640px;
+  }
+} 
+
+@media screen and (max-width: 1125px) {
+  .cover__background{
+    height: 640px;
+    
+
+
+  }
+} 
 

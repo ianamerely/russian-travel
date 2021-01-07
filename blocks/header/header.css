@@ -10,10 +10,15 @@
   /*border: 5px solid red;*/
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 680px) {
   .header{
     padding-top: 16px;
     width: 92%;
+  }
+} 
+@media screen and (max-width: 780px) {
+  .header{
+    width: calc(100% - (24px*2));
   }
 } 
 

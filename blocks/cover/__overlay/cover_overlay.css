@@ -1,20 +1,25 @@
 .cover__overlay{
   display: block;
   background-color: rgba(42, 44, 47, 1);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
   z-index: 2;
   opacity: 30%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 740px;
   width: 100%;
   position: absolute;
-  left: 0;
+  right: 0;
   top: 92px;
-  border: red solid 3px;
 }
 
 .cover__overlay:hover{
   opacity: 80%;
 }
+
+@media screen and (max-width: 1184px) {
+  .cover__overlay{
+    height: 640px;
+  }
+} 
 

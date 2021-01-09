@@ -4,15 +4,11 @@
     background-repeat: no-repeat;
     background-size: contain;
     min-height: 740px; 
-    width: 100%;
     position: absolute;
     right: 0;
     top: 92px;
     display: block;
-    border: green solid 5px;
-    box-sizing: border-box;
-
-    background-size: cover;
+    width: 100%;
   }
 
   @media screen and (max-width: 1184px) {
@@ -27,7 +23,15 @@
       min-height: 480px;
       background-position: center;
       top: 90px;
-      background-size: cover;
+      
+    }
+  } 
+
+  @media screen and (max-width: 680px) {
+    .cover__background{
+      min-height: 400px;
+      background-position: center;
+      top: 66px;
     }
   } 
  
@@ -36,7 +40,6 @@
       min-height: 200px;
       background-position: center;
       top: 66px;
-      background-size: cover;
     }
   } 
 

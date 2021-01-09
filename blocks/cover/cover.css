@@ -7,6 +7,7 @@
   min-height: 832px;
   box-sizing: border-box;
   position: relative;
+  
 }
 
 @media screen and (max-width: 1184px) {
@@ -18,11 +19,19 @@
 
 @media screen and (max-width: 1020px) {
   .cover{
-    width: 100vw;
+    /*width: 100vw;*/
+    width: 100%;
     min-height: 570px;
     padding-top: 90px;
   }
 } 
+
+@media screen and (max-width: 680px) {
+  .cover{
+    min-height: 466px;
+    padding-top: 66px;
+  }
+
 
 @media screen and (max-width: 540px) {
   .cover{

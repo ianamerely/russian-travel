@@ -7,14 +7,26 @@
   min-height: 832px;
   box-sizing: border-box;
   position: relative;
-  
 }
 
 @media screen and (max-width: 1184px) {
   .cover{
     width: 100%;
-    margin: 0;
-    padding-top: 92px;
-    border: 2px solid blue;
+    min-height: 732px;
+  }
+} 
+
+@media screen and (max-width: 1020px) {
+  .cover{
+    width: 100vw;
+    min-height: 570px;
+    padding-top: 90px;
+  }
+} 
+
+@media screen and (max-width: 540px) {
+  .cover{
+    min-height: 266px;
+    padding-top: 66px;
   }
 } 

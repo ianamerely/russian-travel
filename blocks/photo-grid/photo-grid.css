@@ -33,7 +33,7 @@
   }
 } 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 730px) {
   .photo-grid{
     padding-top: 64px;
     grid-template-columns: repeat(1, 1fr);

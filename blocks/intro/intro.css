@@ -1,6 +1,20 @@
 
 .intro{
   display: flex;
+  margin: 0;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  box-sizing: border-box;
+  justify-content: start;
+  padding-top: 92px;
+  padding-left: 148px;
+  max-width: 690px;
+  box-sizing: content-box;
+}
+
+/*.intro{
+  display: flex;
   margin: 0 auto;
   flex-direction: column;
   flex-wrap: wrap;
@@ -9,11 +23,11 @@
   justify-content: start;
   padding-top: 92px;
   max-width: 984px;
-}
+}*/
 
 @media screen and (max-width: 1080px) {
   .intro{
-    max-width: 928px;
+    padding-left: 48px;
   }
 } 
 
@@ -21,6 +35,7 @@
   .intro{
     max-width: 720px;
     padding-top: 88px;
+    padding-left: 24px;
   }
 } 
 
@@ -28,5 +43,6 @@
   .intro{
     max-width: 288px;
     padding-top: 64px;
+    padding-left: 16px;
   }
 } 

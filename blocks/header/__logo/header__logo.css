@@ -2,7 +2,7 @@
   width: 176px;
   height: 52px;
   justify-self: start;
-  background-image: url(/images/header-logo.svg);
+  background-image: url(header-logo.svg);
   background-size: contain;
   background-repeat: no-repeat;
 }

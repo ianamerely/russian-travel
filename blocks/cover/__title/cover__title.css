@@ -12,6 +12,7 @@
   line-height: 1.05;
   opacity: 100%;
   text-decoration: none;
+  object-position: 0% auto;
 }
 
 @media screen and (max-width: 1184px) {

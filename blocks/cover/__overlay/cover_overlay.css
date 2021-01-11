@@ -1,7 +1,6 @@
 .cover__overlay{
-  display: block;
   background-color: rgba(42, 44, 47, 1);
-  /*z-index: 2;*/
+  z-index: 2;
   opacity: 30%;
   background-position: center;
   background-repeat: no-repeat;
@@ -10,13 +9,14 @@
   width: 100%;
   position: absolute;
   right: 0;
-  top: 92px;
+  /*top: 92px;*/
   background-size: cover;
+  text-decoration: none;
 }
 
-.cover__overlay:hover{
+/*.cover__overlay:hover{
   opacity: 80%;
-}
+}*/
 
 @media screen and (max-width: 1184px) {
   .cover__overlay{
@@ -28,7 +28,7 @@
   .cover__overlay{
     min-height: 480px;
     background-position: center;
-    top: 90px;
+    /*top: 90px;*/
     background-size: cover;
   }
 } 
@@ -37,7 +37,7 @@
   .cover__overlay{
     min-height: 400px;
     background-position: center;
-    top: 66px;
+    /*top: 66px;*/
     background-size: cover;
   }
 } 
@@ -46,7 +46,6 @@
   .cover__overlay{
     min-height: 200px;
     background-position: center;
-    top: 66px;
     background-size: cover;
   }
 } 

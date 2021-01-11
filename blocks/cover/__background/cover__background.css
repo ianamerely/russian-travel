@@ -6,9 +6,10 @@
     min-height: 740px; 
     position: absolute;
     right: 0;
-    top: 92px;
+    /*top: 92px;*/
     display: block;
     width: 100%;
+    z-index: 1;
   }
 
   @media screen and (max-width: 1184px) {
@@ -22,7 +23,7 @@
     .cover__background{
       min-height: 480px;
       background-position: center;
-      top: 90px;
+      /*top: 90px;*/
       
     }
   } 
@@ -31,7 +32,7 @@
     .cover__background{
       min-height: 400px;
       background-position: center;
-      top: 66px;
+      /*top: 66px;*/
     }
   } 
  
@@ -39,7 +40,6 @@
     .cover__background{
       min-height: 200px;
       background-position: center;
-      top: 66px;
     }
   } 
 

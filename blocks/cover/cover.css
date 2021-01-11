@@ -7,7 +7,10 @@
   min-height: 832px;
   box-sizing: border-box;
   position: relative;
-  
+}
+
+.cover:hover .cover__overlay{
+  opacity: 80%;
 }
 
 @media screen and (max-width: 1184px) {
@@ -31,6 +34,8 @@
     min-height: 466px;
     padding-top: 66px;
   }
+}
+
 
 
 @media screen and (max-width: 540px) {
@@ -38,4 +43,4 @@
     min-height: 266px;
     padding-top: 66px;
   }
-} 
+}

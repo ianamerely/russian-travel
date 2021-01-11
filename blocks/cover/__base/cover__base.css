@@ -9,10 +9,10 @@
     position: absolute;
     right: 0;
     top: 92px;
-    background-size: cover;
     text-decoration: none;
     order: 1;
 }
+
 
 @media screen and (max-width: 1020px) {
   .cover__base{

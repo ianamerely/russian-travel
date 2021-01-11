@@ -13,4 +13,4 @@
 
 ### Cсылка проекта на GitHub
 
-[Чтобы открыть проект, нажми сюда](https://ianamerely.github.io/russian-travel/index.html)
+[Чтобы открыть проект, нажмите сюда](https://ianamerely.github.io/russian-travel/index.html)

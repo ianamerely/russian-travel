@@ -1,39 +1,39 @@
 .cover__title{ 
-  z-index: 4; 
-  text-align: center; 
-  margin: 0 auto; 
-  color: white; 
-  padding: 0; 
-  font-weight: 900; 
-  padding-top: 245px; 
-  margin-bottom: 32px; 
-  max-width: 560px; 
-  font-size: 72px; 
-  line-height: 1.05; 
-  opacity: 100%; 
-  text-decoration: none; 
-  object-position: 0% auto; 
+  z-index: 4;
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+  padding: 0;
+  font-weight: 900;
+  padding-top: 245px;
+  margin-bottom: 32px;
+  max-width: 560px;
+  font-size: 72px;
+  line-height: 1.05;
+  opacity: 100%;
+  text-decoration: none;
+  object-position: 0% auto;
 } 
  
 @media screen and (max-width: 1184px) { 
   .cover__title{ 
-    padding-top: 195px; 
+    padding-top: 195px;
   } 
 }  
  
 @media screen and (max-width: 1020px) { 
   .cover__title{ 
-    padding-top: 115px; 
+    padding-top: 115px;
   } 
 }  
  
 @media screen and (max-width: 540px) { 
   .cover__title{ 
-    padding-top: 33px; 
-    font-size: 32px; 
-    line-height: 1.1; 
-    margin-bottom: 16px; 
-    max-width: 240px; 
+    padding-top: 33px;
+    font-size: 32px;
+    line-height: 1.1;
+    margin-bottom: 16px;
+    max-width: 240px;
   } 
 }  
  

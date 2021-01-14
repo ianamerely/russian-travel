@@ -9,8 +9,12 @@
   position: relative;
 } 
  
-.cover:hover .cover__overlay{ 
-  opacity: 80%;
+.cover:hover .cover__link{ 
+  background-image: linear-gradient(
+    rgba(42, 44, 47, 0.8), 
+    rgba(42, 44, 47, 0.8)
+  ),
+  url(cover-trains.jpg);
 } 
  
 @media screen and (max-width: 1184px) { 

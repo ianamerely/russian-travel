@@ -4,6 +4,7 @@
     rgba(42, 44, 47, 0.3)
   ),
   url(../cover-trains.jpg);
+  text-decoration: none;
   background-position: top left;
   background-repeat: no-repeat;
   background-size: contain;
@@ -15,6 +16,8 @@
   width: 100%;
   z-index: 1;
 } 
+
+
 
 @media screen and (max-width: 1184px) { 
   .cover__link{ 

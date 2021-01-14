@@ -9,8 +9,3 @@
   font-weight: 400;
 }
 
-@media screen and (max-width: 680px) {
-  .intro__list{
-    font-size: 12px;
-  }
-} 

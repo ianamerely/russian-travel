@@ -11,14 +11,14 @@
 
 @media screen and (max-width: 980px) {
   .place__description{
-    width: 352px;
+    max-width: 352px;
     
   }
 } 
 
 @media screen and (max-width: 730px) {
   .place__description{
-    width: 288px;
+    max-width: 288px;
     margin: 0 auto;
     
   }

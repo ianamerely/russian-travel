@@ -1,5 +1,7 @@
 .header__links{
   justify-content: flex-end;
   align-items: flex-end;
+  font-size: 0;
   /*border: 5px solid red;*/
+  
 }

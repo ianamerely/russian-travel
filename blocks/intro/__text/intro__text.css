@@ -2,15 +2,27 @@
   margin: 0;
   padding: 0;
   margin-bottom: 34px;
-  width: 100%;
+  max-width: 690px;
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 1.63;
   font-weight: 400;
   color: white;
 }
 
+@media screen and (max-width: 780px) {
+  .intro__text{
+    max-width: 720px;
+  }
+} 
+ 
 @media screen and (max-width: 680px) {
   .intro__text{
-    font-size: 16px;
+    max-width: 488px;
+  }
+} 
+
+@media screen and (max-width: 480px) {
+  .intro__text{
+    max-width: 288px;
   }
 } 

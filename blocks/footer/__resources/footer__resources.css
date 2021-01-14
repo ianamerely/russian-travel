@@ -1,5 +1,7 @@
 .footer__resources{
-  justify-content: space-between;
+  justify-content: flex-start;
+  max-width: minmax(min-content, max-content);
+  font-size: 0;
 }
 
 @media screen and (max-width: 680px) {

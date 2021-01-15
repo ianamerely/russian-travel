@@ -1,7 +1,7 @@
 .cover__link{ 
   background-image: url(../cover-trains.jpg);
   text-decoration: none;
-  background-position: top left;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   height: 100%;

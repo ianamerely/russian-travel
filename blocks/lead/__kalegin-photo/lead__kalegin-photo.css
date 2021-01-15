@@ -11,14 +11,9 @@
   }
 } 
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 930px) {
   .lead__kalegin-photo{
-    max-width: 768px;
+    max-width: 100%;
   }
 } 
 
-@media screen and (max-width: 480px) {
-  .lead__kalegin-photo{
-    max-width: 320px;
-  }
-} 

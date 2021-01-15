@@ -27,9 +27,9 @@
   }
 } 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
   .intro{
-    max-width: 304px;
+    max-width: 450px;
     padding-top: 64px;
     padding-left: 30px;
   }
@@ -37,6 +37,8 @@
 
 @media screen and (max-width: 480px) {
   .intro{
+    max-width: 304px;
     padding-left: 16px;
   }
 } 
+

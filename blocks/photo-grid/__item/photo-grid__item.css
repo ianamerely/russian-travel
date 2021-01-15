@@ -1,9 +1,10 @@
 .photo-grid__item{
   max-width: 284px;
   max-height: 213px;
+  box-sizing: border-box;
 }
 
-@media screen and (max-width: 1184px) {
+@media screen and (max-width: 1190px) {
   .photo-grid__item{
     max-width: 300px;
     max-height: 225px;
@@ -19,7 +20,7 @@
   
 } 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
   .photo-grid__item{
     max-width: 288px;
     max-height: 216px;

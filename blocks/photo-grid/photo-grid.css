@@ -8,9 +8,10 @@
   row-gap: 16px;
   padding-top: 92px;
   justify-items: center;
+  box-sizing: border-box;
 }
 
-@media screen and (max-width: 1184px) {
+@media screen and (max-width: 1190px) {
   .photo-grid{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
@@ -33,7 +34,7 @@
   }
 } 
 
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 750px) {
   .photo-grid{
     padding-top: 64px;
     grid-template-columns: repeat(1, 1fr);

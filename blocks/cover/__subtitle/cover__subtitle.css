@@ -1,5 +1,6 @@
 .cover__subtitle{ 
-  z-index: 4;
+  z-index: 2;
+  position: relative;
   margin: 0 auto;
   padding: 0;
   display: flex;
@@ -9,7 +10,6 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 1.22;
-  opacity: 100%;
   text-decoration: none;
 } 
  
@@ -19,5 +19,5 @@
     font-size: 14px;
     line-height: 1.15;
     max-width: 260px;
-  } 
+  }
 }  

@@ -5,7 +5,6 @@
   background-repeat: no-repeat;
   background-size: 100% auto;
   min-height: calc((10/16)*92.5vw);
-  display: block;
   width: 100%;
   position: relative;
   display: flex;

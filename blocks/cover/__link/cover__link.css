@@ -3,7 +3,7 @@
   text-decoration: none;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   min-height: calc((10/16)*92.5vw);
   display: block;
   width: 100%;
